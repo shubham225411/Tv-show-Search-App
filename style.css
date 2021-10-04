@@ -1,0 +1,85 @@
+
+body{
+    
+    /* background-image:url("jack-b-o1radglopDA-unsplash.jpg"); */
+   background:  url("andrew-schultz-EAlbsTo6nuQ-unsplash.jpg")no-repeat  fixed ;
+   background-size: cover;
+   
+}
+
+  
+
+h1{
+    font-weight: 900;
+    text-transform:uppercase;
+    display:inline-block;
+   position: relative;
+    left: 32%;
+    
+    text-shadow: 0px 0px 5px red, 0px 0px 10px green,0px 0px 20px red;
+    box-shadow: 0px 0px  10px 10px black;
+    /* animation: shine 1.5s ease-in-out infinite backwards; */
+    background-image:linear-gradient(to right,black,orange,purple);
+    border-radius: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    transition: transform 1s,background-image 2s;
+
+    
+  }
+  h1:hover
+  {
+      background-image: linear-gradient(to left,black,orange,purple);
+      transform: scale(1.1,1.1);
+  }
+    div img{
+        max-width: 400px;
+        max-height: 400px;
+        transition: all .2s;
+        /* border-radius: 10px; */
+    }
+    button
+    {
+        position: relative;
+        left: 47%;
+        padding: 10px;
+       
+    }
+    #demo img:hover
+    {
+        transform: translateY(-3px);
+        cursor: pointer;
+        box-shadow: 0px 2px 2px red;
+        
+    }
+    #image
+    {
+        margin: 0 auto;
+        
+    }
+    i{
+      position: absolute;
+      left: 9%;
+      top: 12%;
+      color: red;
+      
+
+    }
+@keyframes shine
+{
+    0%
+    {
+        text-shadow: 0px 0px 5px red, 0px 0px 10px green,0px 0px 20px red;
+    }
+    50%
+    {
+        text-shadow: 0px 0px 5px red, 0px 0px 10px green,0px 0px 20px magenta;
+    }
+    70%
+    {
+        text-shadow: 0px 0px 5px red, 0px 0px 10px green,0px 0px 20px cyan;
+    }
+    100%
+    {
+        text-shadow: 0px 0px 5px red, 0px 0px 10px green, 0px 0px 20px red;
+    }
+}
